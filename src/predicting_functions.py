@@ -26,11 +26,14 @@ def export_modelo(modelo, X_train, y_train, X_test):
     sample.to_csv('./Data/sample.csv',index=False)
 
 
-def h2o_function(n_models):
+def h2o_function(n_models, usecols ):
     h2o.init()
 
-    train = pd.read_csv('./Data/train_clean.csv')
-    test = pd.read_csv('./Data/test_clean.csv')
+    train = pd.read_csv('./Data/train_clean.csv', usecols=usecols)
+    test = pd.read_csv('./Data/test_clean.csv', usecols=usecols)
+    train_price =pd.read_csv('./Data/train_clean.csv', usecols=["price"])
+
+    train = pd.concat([train, train_price], axis=1)
 
     train_h2o = h2o.H2OFrame(train)
     test_h2o = h2o.H2OFrame(test)
