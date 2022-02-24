@@ -15,19 +15,19 @@ Este proyecto es de una competición de [Kaggle](https://www.kaggle.com/c/airbnb
 
 ## Documentos
 ### Jupyter notebooks
-* [1.Clean.ipynb]()
-* [2.Predictions.ipynb]()
+* [1.Clean.ipynb](https://github.com/rodrigogalan/kaggle-competition-airbnb/blob/main/1.Clean.ipynb)
+* [2.Predictions.ipynb](https://github.com/rodrigogalan/kaggle-competition-airbnb/blob/main/2.Predictions.ipynb)
 
 ### Data
-* [train.csv](): Datos para entrenar el modelo descargados de Kaggle.
-* [train_clean.csv](): Datos de entrenamiento limpios.
-* [test.csv](): Datos para obtener predicciones descargados de Kaggle.
-* [test_clean.csv](): Datos de predicciones limpios.
-* [sample.csv](): Datos para subir las predicciones a Kaggle.
+* [train.csv](https://github.com/rodrigogalan/kaggle-competition-airbnb/blob/main/Data/train.csv): Datos para entrenar el modelo descargados de Kaggle.
+* [train_clean.csv](https://github.com/rodrigogalan/kaggle-competition-airbnb/blob/main/Data/train_clean.csv): Datos de entrenamiento limpios.
+* [test.csv](https://github.com/rodrigogalan/kaggle-competition-airbnb/blob/main/Data/test.csv): Datos para obtener predicciones descargados de Kaggle.
+* [test_clean.csv](https://github.com/rodrigogalan/kaggle-competition-airbnb/blob/main/Data/test_clean.csv): Datos de predicciones limpios.
+* [sample.csv](https://github.com/rodrigogalan/kaggle-competition-airbnb/blob/main/Data/sample.csv): Datos para subir las predicciones a Kaggle.
 
 ### Functions
-* [cleaning_functions.py]()
-* [predicting_functions.py]()
+* [cleaning_functions.py](https://github.com/rodrigogalan/kaggle-competition-airbnb/blob/main/src/cleaning_functions.py)
+* [predicting_functions.py](https://github.com/rodrigogalan/kaggle-competition-airbnb/blob/main/src/predicting_functions.py)
 
 
 ## Librerias
