@@ -3,7 +3,7 @@
   ![airnbn-logo](./img/airbnb_logo.png)
 
 
-Este proyecto es de una competición de [Kaggle](https://www.kaggle.com/c/airbnb-madrid-ironhack/leaderboard) para encontrar el mejor modelo predictivo de precios para un conjunto de alquieres de Airbnb en Amsterdam
+Este proyecto es de una competición de [Kaggle](https://www.kaggle.com/c/airbnb-madrid-ironhack/leaderboard) para encontrar el mejor modelo predictivo de precios para un conjunto de alquileres de Airbnb en Amsterdam.
 
 ***
 ## Método
